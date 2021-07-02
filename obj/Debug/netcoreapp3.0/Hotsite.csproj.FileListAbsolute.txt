@@ -61,3 +61,6 @@ C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\staticwebassets\
 C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\Hotsite.dll
 C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\Hotsite.pdb
 C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\Hotsite.genruntimeconfig.cache
+C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\Razor\Views\Home\_ModalApoiadores.cshtml.g.cs
+C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\Razor\Views\Home\_ModalDicas.cshtml.g.cs
+C:\Users\ADMIN\Downloads\projetohotsite\obj\Debug\netcoreapp3.0\Razor\Views\Home\_ModalEventos.cshtml.g.cs
