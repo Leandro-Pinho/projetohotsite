@@ -54,7 +54,7 @@ button.accept-policy {
 #parte2 {background-color: rgb(228, 255, 165);}
 #links { margin-top: 100px; position: relative;}
 
-.contato{padding: 2em; position: relative;  background-color: #e2f3fa;}
+.contato{padding: 2em; position: relative;  background-color: #f6fcff;}
 .contato h1{color: #283074; }
 .contato .right{ max-width: 600px; }
 .contato .right .btn-secondary{ background:  #F97300; color: #fff; border:0; margin-left: 260px;}
