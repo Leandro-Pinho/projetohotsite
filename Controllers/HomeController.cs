@@ -27,7 +27,7 @@ namespace Hotsite.Controllers
         public IActionResult Cadastrar(Interesse cad)
         {
             DatabaseService dbs = new DatabaseService();
-            if (cad.Nome == null && cad.Email != null)
+            if (cad.Nome != null && cad.Email != null)
             {
                 try
                 {
@@ -41,8 +41,7 @@ namespace Hotsite.Controllers
             } 
             else 
             {
-                ViewData["Mensagem"] = "Falha no cadastro! Preencha os campos obrigatorios.";
-                _logger.LogWarning("esta errado");
+                ViewData["Mensagem"] = "Falha no cadastro! Nome e E-mail são obrigatorios.";
             }
            
             return View("Index",cad);
