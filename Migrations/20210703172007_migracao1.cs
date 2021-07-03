@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Hotsite.Migrations
 {
-    public partial class Hotsite : Migration
+    public partial class migracao1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

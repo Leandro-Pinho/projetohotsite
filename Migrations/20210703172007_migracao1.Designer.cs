@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hotsite.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20210702224613_Hotsite")]
-    partial class Hotsite
+    [Migration("20210703172007_migracao1")]
+    partial class migracao1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

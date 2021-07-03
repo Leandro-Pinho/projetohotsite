@@ -26,20 +26,20 @@
     <div class="col-md-4 mx-auto">
         <section class="contato">
             <div class="container">
-                <form id="formContato" action="/Home/Cadastrar" method="POST">
+                <form action="/Home/Cadastrar" method="POST">
                     <h1>Entre em contato!</h1>  
                     <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>  
                     <div class="justify-content-md-center right">
                         <div class="form-group">
-                            <input type="text" asp-for="Nome" class="form-control form-control-lg" placeholder="Seu Nome" name="" required>
+                            <input type="text" asp-for="Nome" class="form-control form-control-lg" placeholder="Seu Nome">
                         </div>
                         <div class="form-group">
-                            <input type="email" asp-for="Email" class="form-control form-control-lg" placeholder="seu_email@email.com" name="email" data-toggle="tooltip" data-placement="right" title="Seu email não será divulgado nem compartilhado" required>
+                            <input type="email" asp-for="Email" class="form-control form-control-lg" placeholder="seu_email@email.com"  data-toggle="tooltip" data-placement="right" title="Seu email não será divulgado nem compartilhado">
                         </div>
                         <div class="form-group">
                             <textarea asp-for="Mensagem" class="form-control form-control-lg" placeholder="Deixe sua mensagem (Opcional)"></textarea>
                         </div class="d-flex justify-content-end ml-10">
-                        <input type="submit" class="btn btn-secondary" value="Enviar" name="">
+                        <input type="submit" class="btn btn-secondary" value="Enviar">
                     </div>
                 </form>
             </div>

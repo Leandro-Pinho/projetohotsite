@@ -27,7 +27,24 @@ namespace Hotsite.Controllers
         public IActionResult Cadastrar(Interesse cad)
         {
             DatabaseService dbs = new DatabaseService();
-            dbs.CadastraInteresse(cad);
+            if (cad.Nome == null && cad.Email != null)
+            {
+                try
+                {
+                    dbs.CadastraInteresse(cad);
+                    ViewData["Mensagem"] = "Cadastro realizado com sucesso!";
+                }
+                catch(Exception e)
+                {
+                    _logger.LogError("Falha no cadastro: " + e.Message);
+                }
+            } 
+            else 
+            {
+                ViewData["Mensagem"] = "Falha no cadastro! Preencha os campos obrigatorios.";
+                _logger.LogWarning("esta errado");
+            }
+           
             return View("Index",cad);
         }
 
